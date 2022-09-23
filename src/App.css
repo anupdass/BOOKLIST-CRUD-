@@ -1,0 +1,29 @@
+.book {
+  margin-top: 50px;
+  line-height: 7px;
+  text-align: center;
+}
+
+.main {}
+
+.from {
+  padding: 10px;
+  text-align: left;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+
+@media(max-width:1000px) {
+  .book_from {
+    width: 100%;
+  }
+
+  .book_table {
+    margin-top: 10px;
+    width: 100%;
+    padding: 50px;
+  }
+}
